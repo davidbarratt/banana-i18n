@@ -1,9 +1,10 @@
 {
-  "name": "banana-i18n",
+  "name": "@davidbarratt/banana-i18n",
   "version": "1.0.2",
   "description": "Banana Internationalization library",
   "main": "dist/banana-i18n.js",
   "scripts": {
+    "prepublishOnly": "npm run build",
     "test": "NODE_ENV=test mocha",
     "build": "webpack --mode=production"
   },
